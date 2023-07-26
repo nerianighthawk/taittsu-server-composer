@@ -1,0 +1,16 @@
+version: '1'
+
+services:
+  api:
+    build: ./taittsu-server
+    container_name: api-server
+    environment:
+      API_KEY: "${API_KEY}"
+    ports:
+      - 8080:8080
+
+  nginx:
+    build: ./nginx
+    container_name: nginx-server
+    ports:
+      - 80:80
