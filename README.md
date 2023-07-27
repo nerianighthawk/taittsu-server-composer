@@ -29,5 +29,3 @@ docker compose up -d
 ## API仕様
 
 `{domain}/taittsuu/api/` 以降が `https://publicapi.taittsuu.com/publicapi/v0.1/` 以降と同じ文字列で対応します.
-
-※現状 next パラメータによる続きの取得機能はありません
