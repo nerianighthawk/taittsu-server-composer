@@ -2,7 +2,7 @@ version: '1'
 
 services:
   api:
-    build: ./taittsu-server
+    build: ./taittsuu-server
     container_name: api-server
     environment:
       API_KEY: "${API_KEY}"
